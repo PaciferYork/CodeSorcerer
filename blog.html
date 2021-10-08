@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+    <title>Blog - Code Sorcerer</title>
+</head>
+
+<body>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+
+
+    <!-- navbar designing-link active will be blog designing start -->
+
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#e3f2fd">
+        <div class="container-fluid">
+            <a class="navbar-brand" href=""><b>Code Sorcerer</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+
+                    <div class="btn-group dropend">
+                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Some More Links
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li"><a class="dropdown-item" href="#">Explore This Link.</a></li>
+
+                                <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Reach the creator of This Website-</a></li>
+                                <li><a class="dropdown-item" href="https://www.instagram.com/alien_.2007/">Instagram</a>
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="https://www.linkedin.com/in/kunal-anand-5047b01ba/">LinkedIn</a></li>
+                        </ul>
+
+                    </div>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+
+
+
+                </form>
+
+            </div>
+
+        </div>
+        <div class="register">
+            <button class="btn btn-danger" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Register
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Register To Us</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Register With Us and get Your Name saved in our DataBase
+                        </div>
+                        <form class="row g-3">
+                            <div class="col-7">
+                                <label for="inputFirstName" class="form-label">Enter First Name</label>
+                                <input type="text" class="form-control" id="inputFirstName" placeholder="eg.- John">
+                            </div>
+                            <div class="col-7">
+                                <label for="inputFirstName" class="form-label">Enter Last Name</label>
+                                <input type="text" class="form-control" id="inputFirstName" placeholder="eg.- Smith">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputCity" class="form-label">Phone Number (optional.)</label>
+                                <input type="text" class="form-control" id="inputPhoneNumber">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="inputState" class="form-label">Gender</label>
+                                <select id="inputState" class="form-select">
+                                    <option selected>Choose...</option>
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Trans</option>
+                                    <option>Prefer not to choose</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="inputZip" class="form-label">Age</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+
+                            <div class="col-md-4">
+                                <label for="validationCustomUsername" class="form-label">Username</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    <input type="text" class="form-control" id="validationCustomUsername"
+                                        aria-describedby="inputGroupPrepend" required>
+                                    <div class="invalid-feedback">
+                                        Please add a username.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail4"
+                                    placeholder="eg.- something@gmail.com">
+
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPassword4">
+                            </div>
+                            <div class="col-12">
+
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Sign in</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </nav>
+
+    <div class="Processing-blog">
+        <div class="p-3 mb-2 bg-info text-dark">
+            <h1>
+                  .          Blog Section under process
+            </h1>
+        </div>
+    </div>
+</body>
+
+</html>
