@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <title>Code Sorcerer</title>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+  <!-- Website Designing start -->
+
+  <!-- Navbar Styling Start -->
+
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#e3f2fd">
+    <div class="container-fluid">
+      <a class="navbar-brand" href=""><b>Code Sorcerer</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+
+          <div class="btn-group dropend">
+            <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Some More Links
+            </button>
+            <ul class="dropdown-menu">
+              <li"><a class="dropdown-item" href="#">Explore This Link.</a></li>
+
+                <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Reach the creator of This Website-</a></li>
+                <li><a class="dropdown-item" href="https://www.instagram.com/alien_.2007/">Instagram</a></li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/kunal-anand-5047b01ba/">LinkedIn</a></li>
+            </ul>
+            <!-- <span class="badge bg-info text-dark">Newly <br> Edited</span> -->
+          </div>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+
+
+
+        </form>
+
+      </div>
+
+    </div>
+    <div class="register">
+      <button class="btn btn-danger" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Register
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Register To Us</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Register With Us and get Your Name saved in our DataBase
+            </div>
+            <form class="row g-3">
+              <div class="col-7">
+                <label for="inputFirstName" class="form-label">Enter First Name</label>
+                <input type="text" class="form-control" id="inputFirstName" placeholder="eg.- John">
+              </div>
+              <div class="col-7">
+                <label for="inputFirstName" class="form-label">Enter Last Name</label>
+                <input type="text" class="form-control" id="inputFirstName" placeholder="eg.- Smith">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">Phone Number (optional.)</label>
+                <input type="text" class="form-control" id="inputPhoneNumber">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Gender</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Trans</option>
+                  <option>Prefer not to choose</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Age</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+
+              <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                    Please add a username.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="eg.- something@gmail.com">
+
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </nav>
+
+
+  <!-- Navbar end -->
+
+
+
+  <!-- Component 1- Image Changing Corousel designing start -->
+
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="3.jpg" class="d-block w-100" alt="Please check Your Network Connectivity or Reload This page">
+        <div class="carousel-caption d-none d-md-block">
+          <h2><b>Welcome to The Gangster Coding</b></h5>
+            <p><b>Join us and become a Gangster in the world if Coding.</b></p>
+            <button type="button" class="btn btn-primary">Web Development</button>
+            <button type="button" class="btn btn-danger">Automations</button>
+            <button type="button" class="btn btn-success">Data Science</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="2.jpg" class="d-block w-100" alt="Please check Your Network Connectivity or Reload This page">
+        <div class="carousel-caption d-none d-md-block">
+          <h2><b>Yes you are on the correct Path</b></h5>
+            <p><b>When to use iterative development? You should use iterative development only on projects that you want
+                to succeed..</b></p>
+            <button type="button" class="btn btn-primary">Blockchain</button>
+            <button type="button" class="btn btn-danger">Information Technology</button>
+            <button type="button" class="btn btn-success">Python</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="1.jpg" class="d-block w-100" alt="Please check Your Network Connectivity or Reload This page">
+        <div class="carousel-caption d-none d-md-block">
+          <h2><b>This is the finest Website in World</b></h5>
+            <p><b>Make it work, make it right, make it fast.</b></p>
+            <button type="button" class="btn btn-primary">Freelancing</button>
+            <button type="button" class="btn btn-danger">Blogging</button>
+            <button type="button" class="btn btn-success">MySQL</button>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Component 1- Image Changing Corousel designing end -->
+
+  <!-- alert component designing start -->
+
+
+
+  <!-- <div class="alert alert-primary alert-dismissible fade show" role="alert">
+      <strong>Hey!</strong> Don't forget to leave a comment.
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div> -->
+
+
+  <!-- alert component designing end -->
+
+
+  <!-- card component designing start -->
+
+  <div class="container my-4">
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Artificial Intelligence</strong>
+            <h3 class="mb-0">Automations are changing the world.</h3><br>
+            <div class="mb-1 text-muted">Last updated- 6/oct/2021</div> <br>
+
+            <p class="card-text mb-auto">The number of industrial robots in use tripled over the past two decades. It is
+              set to multiply nearly 10-fold to 20m by 2030. Robot use in services is also accelerating, boosted by AI.
+              <br>
+              Productivity and growth will be boosted, but up to 20m manufacturing jobs are set to be lost by 2030.
+            </p>
+            <a href="blog.html" class="stretched-link">Go to Blog to continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="card-1.jpg" alt="Please check Your Network Connectivity or Reload This page">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Machine Learning</strong>
+            <h3 class="mb-0">Machine learning is improving Algorithm</h3>
+            <div class="mb-1 text-muted">Last updated- 7/oct/2021</div>
+            <p class="mb-auto">Machine learning uses two types of techniques: supervised learning, which trains a model
+              on known input and output data so that it can predict future outputs, and unsupervised learning, which
+              finds hidden patterns or intrinsic structures in input data.
+              content.</p>
+            <a href="blog.html" class="stretched-link">Go to Blog to continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="card-2.jpg" alt="Please check Your Network Connectivity or Reload This page">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-primary">Programming Languages</strong>
+            <h3 class="mb-0">Which programming language will be in demand in future?</h3>
+            <div class="mb-1 text-muted">Last updated- 7/oct/2021</div>
+            <p class="card-text mb-auto"> Python and JavaScript are easy-to-learn and therefore considered the best
+              programming languages to learn for beginners. Moreover, both of them also provide a huge market
+              opportunity. Therefore, those who are looking for a job change may also consider learning them. Java and
+              PHP are hot in the corporate world.</p>
+            <a href="blog.html" class="stretched-link">Go to Blog to continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="card-4.jpg" alt="Please check Your Network Connectivity or Reload This page">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <strong class="d-inline-block mb-2 text-success">Cyber-Security</strong>
+            <h3 class="mb-0">How cybersecurity is becoming a bigger priority?</h3>
+            <div class="mb-1 text-muted">Last updated- 8/oct/2021</div>
+            <p class="mb-auto">In 2017 alone, there were over 160,000 reported attacks – almost double that of the
+              previous year, and with more IP related technology and a forever-growing online presence, naturally, the
+              rise in cybercrime is going to go hand-in-hand. <br>Cybersecurity is needed in every business industry.
+              The demand will definately increase exponentially.</p>
+            <a href="blog.html" class="stretched-link">Go to Blog to continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="card-3.jpg" alt="Please check Your Network Connectivity or Reload This page">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- card component designing end -->
+
+
+  <!-- Contact form designing start -->
+
+  <div class="contact-form-full">
+  <div class="container">
+    <div class="alert alert-info" role="alert">
+      <h2 class="contact">
+        Contact Us
+      </h2>
+    </div>
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Give Feedback
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Your Feedback Matters a lot for Us.
+        </div>
+        <form class="row g-3">
+          <div class="col-md-4">
+            <label for="validationServer01" class="form-label">First name</label>
+            <input type="text" class="form-control is-valid" id="validationServer01" required>
+
+          </div>
+          <div class="col-md-4">
+            <label for="validationServer02" class="form-label">Last name</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Username</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Express your Views</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Complaint Form
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">All Complaints will be analyzed soon <br> and we'll work on them.
+        </div>
+        <form class="row g-3">
+          <div class="col-md-4">
+            <label for="validationServer01" class="form-label">First name</label>
+            <input type="text" class="form-control is-valid" id="validationServer01"  required>
+            <div class="valid-feedback">
+              If you are not registered then your complained will not be stored in our DataBase.
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationServer02" class="form-label">Last name</label>
+            <input type="text" class="form-control is-valid" id="validationServer02" 
+             required>
+         </div>
+         <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+         <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">What's Your complain?</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+          <div class="mb-3">
+            <label for="formFileMultiple" class="form-label">If you want you can attach a file giving us Details.   (optional)</label>
+            <input class="form-control" type="file" id="formFileMultiple" multiple>
+          </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Contribution Form
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">If you want to Write For out blogs or work on the Repository you are most welcome.
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+  <br> <br> <br>
+  <!-- Contact form designing end -->
+
+
+  <!-- adding footer component -->
+
+
+  <div class="footer" style="background-color:rgb(233, 224, 224)">
+    <footer class="py-3 my-1">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+        <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li> -->
+        <!-- <li class="nav-item"><a href="" class="nav-link px-2 text-muted">Information</a></li> -->
+        <li class="nav-item"><a href="blog.html" class="nav-link px-2 text-muted">Blogs</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About Us</a></li>
+      </ul>
+      <p class="text-center text-muted">© 2021 Code Corcerer, Inc.</p>
+    </footer>
+  </div>
+
+
+  <!-- footer component end -->
+
+
+</body>
+
+</html>
