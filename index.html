@@ -114,7 +114,8 @@
                 <label for="validationCustomUsername" class="form-label">Username</label>
                 <div class="input-group has-validation">
                   <span class="input-group-text" id="inputGroupPrepend">@</span>
-                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                  <input type="text" class="form-control" id="validationCustomUsername"
+                    aria-describedby="inputGroupPrepend" required>
                   <div class="invalid-feedback">
                     Please add a username.
                   </div>
@@ -307,121 +308,185 @@
   <!-- Contact form designing start -->
 
   <div class="contact-form-full">
-  <div class="container">
-    <div class="alert alert-info" role="alert">
-      <h2 class="contact">
-        Contact Us
-      </h2>
-    </div>
+    <div class="container">
+      <div class="alert alert-info" role="alert">
+        <h2 class="contact">
+          Contact Us
+        </h2>
+      </div>
 
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-          Give Feedback
-        </button>
-      </h2>
-      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-        data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Your Feedback Matters a lot for Us.
-        </div>
-        <form class="row g-3">
-          <div class="col-md-4">
-            <label for="validationServer01" class="form-label">First name</label>
-            <input type="text" class="form-control is-valid" id="validationServer01" required>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Give Feedback
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Your Feedback Matters a lot for Us.
+          </div>
+          <form class="row g-3">
+            <div class="col-md-4">
+              <label for="validationServer01" class="form-label">First name</label>
+              <input type="text" class="form-control is-valid" id="validationServer01" required>
 
-          </div>
-          <div class="col-md-4">
-            <label for="validationServer02" class="form-label">Last name</label>
-            <input type="text" class="form-control is-valid" id="validationServer02" required>
-          </div>
-          <div class="col-md-4">
-            <label for="validationCustomUsername" class="form-label">Username</label>
-            <div class="input-group has-validation">
-              <span class="input-group-text" id="inputGroupPrepend">@</span>
-              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-              <div class="invalid-feedback">
-                Please choose a username.
+            </div>
+            <div class="col-md-4">
+              <label for="validationServer02" class="form-label">Last name</label>
+              <input type="text" class="form-control is-valid" id="validationServer02" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername"
+                  aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Please choose a username.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Express your Views</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-        </form>
-
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="container">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-          Complaint Form
-        </button>
-      </h2>
-      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-        data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">All Complaints will be analyzed soon <br> and we'll work on them.
-        </div>
-        <form class="row g-3">
-          <div class="col-md-4">
-            <label for="validationServer01" class="form-label">First name</label>
-            <input type="text" class="form-control is-valid" id="validationServer01"  required>
-            <div class="valid-feedback">
-              If you are not registered then your complained will not be stored in our DataBase.
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Express your Views</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-          </div>
-          <div class="col-md-4">
-            <label for="validationServer02" class="form-label">Last name</label>
-            <input type="text" class="form-control is-valid" id="validationServer02" 
-             required>
-         </div>
-         <div class="col-md-4">
-          <label for="validationCustomUsername" class="form-label">Username</label>
-          <div class="input-group has-validation">
-            <span class="input-group-text" id="inputGroupPrepend">@</span>
-            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-            <div class="invalid-feedback">
-              Please choose a username.
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  You are Provided one more chance to check
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">What's Your complain?</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-          <div class="mb-3">
-            <label for="formFileMultiple" class="form-label">If you want you can attach a file giving us Details.   (optional)</label>
-            <input class="form-control" type="file" id="formFileMultiple" multiple>
-          </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit Feedback</button>
+            </div>
 
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-          Contribution Form
-        </button>
-      </h2>
-      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-        data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">If you want to Write For out blogs or work on the Repository you are most welcome.
+          </form>
+
         </div>
       </div>
     </div>
+
+
+
+    <div class="container">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Complaint Form
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">All Complaints will be analyzed soon <br> and we'll work on them.
+          </div>
+          <form class="row g-3">
+            <div class="col-md-4">
+              <label for="validationServer01" class="form-label">First name</label>
+              <input type="text" class="form-control is-valid" id="validationServer01" required>
+              <div class="valid-feedback">
+                If you are not registered then your complained will not be stored in our DataBase.
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationServer02" class="form-label">Last name</label>
+              <input type="text" class="form-control is-valid" id="validationServer02" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername"
+                  aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                  Please choose a username.
+                </div>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">What's Your complain?</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+              <label for="formFileMultiple" class="form-label">If you want you can attach a file giving us Details.
+                (optional)</label>
+              <input class="form-control" type="file" id="formFileMultiple" multiple>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  You are Provided one more chance to check
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit Feedback</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Contribution Form
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">If you want to Write For out blogs or work on the Repository you are most welcome.
+          </div>
+          <form class="row g-3">
+            <div class="col-md-4">
+              <label for="validationServer01" class="form-label">First name</label>
+              <input type="text" class="form-control is-valid" id="validationServer01" required>
+              
+            </div>
+            
+            <div class="col-md-4">
+              <label for="validationServer02" class="form-label">Last name</label>
+              <input type="text" class="form-control is-valid" id="validationServer02" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationServer02" class="form-label">Contact no.</label>
+              <input type="numbers" class="form-control" id="validationServer02" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Check once more, if info. will be wrong you aren't be accepted.
+                </label>
+                <div class="invalid-feedback">
+                  Check once more, if info. will be wrong you aren't be accepted.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit Form</button>
+            </div>
+        </div>
+
+
+        
+      </div>
+    </div>
   </div>
   </div>
   </div>
-</div>
+  </div>
   <br> <br> <br>
   <!-- Contact form designing end -->
 
