@@ -30,7 +30,6 @@ An Amazing Website, where you get weekly information on Computer Science, IT Ind
 ## Get in touch with Creator's social media pages-
 
  - [LinkedIn](https://www.linkedin.com/in/kunal-anand-5047b01ba/)
- - [GitHub](github.com/paciferyork)
  - [Instagram](https://www.instagram.com/alien_.2007/)
 
   
