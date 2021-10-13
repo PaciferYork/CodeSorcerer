@@ -2,167 +2,267 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
 
-    <title>Blog - Code Sorcerer</title>
+  <title>Blog - Code Sorcerer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
-        crossorigin="anonymous"></script>
-
-
-    <!-- navbar designing-link active will be blog designing start -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+    crossorigin="anonymous"></script>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#e3f2fd">
-        <div class="container-fluid">
-            <a class="navbar-brand" href=""><b>Code Sorcerer</b></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+  <!-- navbar designing-link active will be blog designing start -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#e3f2fd">
+    <div class="container-fluid">
+      <a class="navbar-brand" href=""><b>Code Sorcerer</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+
+          <div class="btn-group dropend">
+            <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Some More Links
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-1 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
-                    </li>
+            <ul class="dropdown-menu">
+              <li"><a class="dropdown-item" href="#">Explore This Link.</a></li>
 
-                    <div class="btn-group dropend">
-                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Some More Links
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li"><a class="dropdown-item" href="#">Explore This Link.</a></li>
+                <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Reach the creator of This Website-</a></li>
+                <li><a class="dropdown-item" href="https://www.instagram.com/alien_.2007/">Instagram</a>
+                </li>
+                <li><a class="dropdown-item" href="https://www.linkedin.com/in/kunal-anand-5047b01ba/">LinkedIn</a></li>
+            </ul>
 
-                                <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Reach the creator of This Website-</a></li>
-                                <li><a class="dropdown-item" href="https://www.instagram.com/alien_.2007/">Instagram</a>
-                                </li>
-                                <li><a class="dropdown-item"
-                                        href="https://www.linkedin.com/in/kunal-anand-5047b01ba/">LinkedIn</a></li>
-                        </ul>
-
-                    </div>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+          </div>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
 
 
 
-                </form>
+        </form>
 
-            </div>
+      </div>
 
-        </div>
-        <div class="register">
-            <button class="btn btn-danger" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Register
-            </button>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Register To Us</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            Register With Us and get Your Name saved in our DataBase
-                        </div>
-                        <form class="row g-3">
-                            <div class="col-7">
-                                <label for="inputFirstName" class="form-label">Enter First Name</label>
-                                <input type="text" class="form-control" id="inputFirstName" placeholder="eg.- John">
-                            </div>
-                            <div class="col-7">
-                                <label for="inputFirstName" class="form-label">Enter Last Name</label>
-                                <input type="text" class="form-control" id="inputFirstName" placeholder="eg.- Smith">
-                            </div>
-                            <div class="col-md-6">
-                                <label for="inputCity" class="form-label">Phone Number (optional.)</label>
-                                <input type="text" class="form-control" id="inputPhoneNumber">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="inputState" class="form-label">Gender</label>
-                                <select id="inputState" class="form-select">
-                                    <option selected>Choose...</option>
-                                    <option>Male</option>
-                                    <option>Female</option>
-                                    <option>Trans</option>
-                                    <option>Prefer not to choose</option>
-                                </select>
-                            </div>
-                            <div class="col-md-2">
-                                <label for="inputZip" class="form-label">Age</label>
-                                <input type="text" class="form-control" id="inputZip">
-                            </div>
-
-                            <div class="col-md-4">
-                                <label for="validationCustomUsername" class="form-label">Username</label>
-                                <div class="input-group has-validation">
-                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                    <input type="text" class="form-control" id="validationCustomUsername"
-                                        aria-describedby="inputGroupPrepend" required>
-                                    <div class="invalid-feedback">
-                                        Please add a username.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <label for="inputEmail4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4"
-                                    placeholder="eg.- something@gmail.com">
-
-                            </div>
-                            <div class="col-md-6">
-                                <label for="inputPassword4" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="inputPassword4">
-                            </div>
-                            <div class="col-12">
-
-                            </div>
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary">Sign in</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </nav>
-
-    <div class="Processing-blog">
-        <div class="p-3 mb-2 bg-info text-dark">
-            <h1>
-                  .          Blog Section under process
-            </h1>
-        </div>
     </div>
+    <div class="register">
+      <button class="btn btn-danger" type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Register
+      </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Register To Us</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Register With Us and get Your Name saved in our DataBase
+            </div>
+            <form class="row g-3">
+              <div class="col-7">
+                <label for="inputFirstName" class="form-label">Enter First Name</label>
+                <input type="text" class="form-control" id="inputFirstName" placeholder="eg.- John">
+              </div>
+              <div class="col-7">
+                <label for="inputFirstName" class="form-label">Enter Last Name</label>
+                <input type="text" class="form-control" id="inputFirstName" placeholder="eg.- Smith">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">Phone Number (optional.)</label>
+                <input type="text" class="form-control" id="inputPhoneNumber">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Gender</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Trans</option>
+                  <option>Prefer not to choose</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Age</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+
+              <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input type="text" class="form-control" id="validationCustomUsername"
+                    aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                    Please add a username.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="eg.- something@gmail.com">
+
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </nav>
+  <br>
+  <!-- navbar designing end -->
+
+
+  <!-- blog cards designing start -->
+
+  <div class="container">
+
+    <div class="card text-center rounded-2">
+      <img src="https://source.unsplash.com/1600x300/?technology,laptop,table" class="card-img-top" alt="..."></img>
+      <div class="card-header">
+
+        <p class="d-inline-block mb-2 text-success"><b><strong>Cyber-Security</strong></b></p>
+
+
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How cybersecurity is becoming a bigger priority?</h5>
+        <hr>
+        <p class="card-text">In 2017 alone, there were over 160,000 reported attacks – almost double that of the.....
+        </p>
+        <p>
+
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            Read More...
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            In 2017 alone, there were over 160,000 reported attacks – almost double that of the
+            previous year, and with more IP related technology and a forever-growing online presence, naturally, the
+            rise in cybercrime is going to go hand-in-hand. <br>Cybersecurity is needed in every business industry.
+            The demand will definately increase exponentially.
+            Securing workforces holistically, including the people who deal with customers and customer data every day,
+            can protect companies from long-term reputational damage. Keeping hybrid workers secure no matter where they
+            are is now an essential component of ensuring future business success.
+            Having served in the military for over a decade, I understand how important it is to make cybersecurity a
+            top investment. My time in Afghanistan gave me better insight as to how intelligence can easily be
+            extracted. What I learned is that cybersecurity is applicable to every business operation, whether it’s in
+            the military, corporations or entrepreneurs.
+          </div>
+        </div>
+      </div>
+      <div class="card-footer text-warning">
+        Published- October 11,2021
+      </div>
+    </div>
+    
+    <!-- card-2 -->
+    <div class="card text-center rounded-2">
+      <img src="https://source.unsplash.com/1600x300/?laptop,hacking" class="card-img-top" alt="..."></img>
+      <div class="card-header">
+
+        <p class="d-inline-block mb-2 text-success"><b><strong>Programming languages</strong></b></p>
+
+
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Which programming language will be in demand in future?</h5>
+        <hr>
+        <p class="card-text">Python and JavaScript are easy-to-learn and therefore considered the best
+          progr......
+        </p>
+        <p>
+
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            Read More...
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body">
+            Python and JavaScript are easy-to-learn and therefore considered the best
+              programming languages to learn for beginners. Moreover, both of them also provide a huge market
+              opportunity. Therefore, those who are looking for a job change may also consider learning them. Java and
+              PHP are hot in the corporate world. <br>
+              If you’re familiar with Java—a classic programming language in its own right—it’s worth checking out its modern cousin, Scala. Scala combines the best features of Java (such as its Object-Oriented Structure and its lightning-fast JVM runtime environment) with a modern twist.
+          </div>
+        </div>
+      </div>
+      <div class="card-footer text-warning">
+        Published- October 11,2021
+      </div>
+    </div>
+  </div>
+
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <!-- blog-cards designing end -->
+
+  <!-- adding footer component -->
+
+
+  <div class="footer" style="background-color:rgb(233, 224, 224)">
+    <footer class="py-3 my-1">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+        <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"></a></li> -->
+        <!-- <li class="nav-item"><a href="" class="nav-link px-2 text-muted">Information</a></li> -->
+        <li class="nav-item"><a href="blog.html" class="nav-link px-2 text-muted">Blogs</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About Us</a></li>
+      </ul>
+      <p class="text-center text-muted">© 2021 Code Corcerer, Inc.</p>
+    </footer>
+  </div>
+
+
+  <!-- footer component end -->
+
+
 </body>
 
 </html>
