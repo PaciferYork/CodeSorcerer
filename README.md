@@ -64,4 +64,5 @@ SOFTWARE.
 
 If you have any feedback, please reach out to us at https://paciferyork.github.io/CodeSorcerer
 
-  
+### Value
+1062$ - 84990₹ INR
